@@ -1,6 +1,6 @@
 library(tidyverse)
 
-apple_data <- read.csv("apple_data.csv")
+apple_data <- read.csv("data/apple_data.csv")
 
 # summary statistics
 summary(apple_data)
