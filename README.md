@@ -4,7 +4,7 @@ This repository contains scripts to analyze Apple stock prices and make a 5-day 
 
 ## Usage
 
-Fetching Data: The `01_data.R script` fetches historical stock price data for Apple from Yahoo Finance and saves it as a CSV file in the data/ directory.
+Fetching Data: The `01_data.R` script fetches historical stock price data for Apple from Yahoo Finance and saves it as a CSV file in the data/ directory.
 
 Cleaning Data: The `02_data_fix.R` script reads the raw data, cleans it, and calculates log returns. The cleaned data is saved back to the data/ directory.
 
