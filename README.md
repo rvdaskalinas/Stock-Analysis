@@ -1,6 +1,6 @@
 # Stock Analysis
 
-This repository contains scripts to analyze Apple stock prices and make a 5-day ahead price forecast. It was mostly done to showcase proper structure compared to my other projects which are practice scripts or parts of more advanced analysis using other programs (EViews, Gretl, Excel etc)
+This repository contains scripts to analyze Apple stock prices and make a 5-day ahead price forecast. It was mostly done to showcase proper structure compared to my other projects which are practice scripts or parts of more advanced analysis using other programs (EViews, Gretl, Excel etc).
 
 ## Usage
 
