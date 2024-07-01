@@ -1,7 +1,7 @@
 library(tidyverse)
 library(TTR)
 
-apple_data <- read.csv("apple_data.csv")
+apple_data <- read.csv("data/apple_data.csv")
 
 # SMA and Volatility
 apple_data <- apple_data %>%
@@ -9,4 +9,4 @@ apple_data <- apple_data %>%
          SMA_200 = SMA(price, n = 200),
          Volatility = runSD(returns, n = 20, sample = FALSE))
 
-write.csv(apple_data, "apple_data.csv")
+write.csv(apple_data, "data/apple_data.csv")

@@ -1,7 +1,7 @@
 library(tidyverse)
 library(forecast)
 
-apple_data <- read.csv("apple_data.csv")
+apple_data <- read.csv("data/apple_data.csv")
 apple_data$Date <- as.Date(apple_data$Date, format = "%Y-%m-%d")
 
 # ts conversion
