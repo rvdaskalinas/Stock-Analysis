@@ -21,4 +21,4 @@ Predictive Modeling: The `05_arima_modeling.R` script builds an ARIMA model to f
 -   `TTR`
 -   `forecast`
 -   `here`
--   `ggplot2`
+
